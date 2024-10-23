@@ -1,0 +1,11 @@
+.env
+__pycache__
+chroma_db/
+chroma
+bb_test/
+*.sh
+*.db
+*.log
+*.sql
+.bb
+.gradio
