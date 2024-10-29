@@ -177,6 +177,6 @@ def ask_to_rewrite_question_node(state: AgentState):
 
     llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
     formatted_prompt = prompt.format_messages()
-    responce = llm.invoke(formatted_prompt)
-    state["agent_response"] = responce.content
+    response = llm.invoke(formatted_prompt)
+    state["agent_response"] = response.content
     return state
