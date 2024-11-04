@@ -13,6 +13,31 @@
 
 If the context or question doesn't make sense, Agent_BB7 will ask for clarification to keep everything on track.
 
+## 🚀 Getting Started
+
+1. **Clone the repo**:  
+   ```bash
+   git clone https://github.com/KhlusAndrey/agent_bb7
+2. **Install the dependencies**:
+
+    ```bash 
+    pip install -r requirements.txt
+3. **Specify environment keys in .env file**
+
+4. **Run the app**:
+    ```bash
+    python app.py
+5. **Open running public or local URL and start generating, just input your research question, and BB7 will handle the rest!**
+
+## 🚀 Getting Started with Docker
+1. **Clone the repo**:  
+   ```bash
+   git clone https://github.com/KhlusAndrey/agent_bb7
+
+2. **Specify environment keys in .env file and select dbs in docker-compose.yaml which will use**
+
+3. **Run docker-compose.yaml**:
+
 ## 💡 Key Features
 
 ### Custom Research Plans: Tailored analysis strategies for your specific needs.

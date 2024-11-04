@@ -9,4 +9,4 @@ COPY . .
 
 RUN apt-get update && apt-get install -y postgresql-client && apt-get install -y dnsutils iputils-ping vim
 
-CMD ["python", "agent_bb7/main.py"]
+CMD ["python", "agent_bb7/app.py"]
